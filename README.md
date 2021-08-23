@@ -30,3 +30,9 @@ You can use this within the free tier of AWS
 13. Deploy and test the code
 14. Go to GuardDuty, settings, and click generate sample findings. Give it ~5 minutes to send alerts to Slack
 
+
+
+
+# Example of Log
+<img width="519" alt="Screen Shot 2021-08-22 at 9 08 36 PM" src="https://user-images.githubusercontent.com/59716037/130388880-9653a828-f651-49f2-95a3-5a93441d1b63.png">
+
