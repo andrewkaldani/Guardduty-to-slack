@@ -10,6 +10,7 @@ The goal of this project is to send AWS GuardDuty alerts to AWS CloudWatch. Then
 2. After creating a Slack Channel go to the settings page and click incoming webhooks and toggle activate incoming webhooks to on
 3. Once a webhook is created pick the channel you want the webhook to be connected to and click authorize to your app. You willl recieve a URL link with some keys at the end of the link make sure you keep that private
 4. If you want to test to make sure it posts messages to your slack channel copy the curl requst and run it on your terminal. It should POST "Hello World" to your slack channel.
+
 Resource: https://api.slack.com/messaging/webhooks
 
 # AWS GuardDuty/CloudWatch/Lambda:
