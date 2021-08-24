@@ -119,7 +119,7 @@ def lambda_handler(event, context):
 
     return {
         'statusCode': 200,
-        'body':json.dumps(event),
-        'type':str(type(event))
+        #'body':json.dumps(event),
+        #'type':str(type(event))
 
     }
