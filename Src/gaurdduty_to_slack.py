@@ -6,11 +6,13 @@ webhook = 'https://hooks.slack.com/services/YOUR/KEY/HERE'
 
 
 def send_to_slack(message):
-    # Using POST from request library messgae using Webhook from
-    #   Slack API which dumps event from JSON to Python String
-    #   This line allows us to post new messages to your slack channel 
-    #   everytime logs are collected. It prepares and indents the messages
-    #   as a string 
+    """
+       Using POST from request library messgae using Webhook from
+       Slack API which dumps event from JSON to Python String
+       This line allows us to post new messages to your slack channel 
+       everytime logs are collected. It prepares and indents the messages
+       as a string 
+    """
     try:
         r = requests.post(webhook, json.dumps(message, default = 'str', indent=4), headers={'Content-type': 'application/json'})
         r.raise_for_status()
