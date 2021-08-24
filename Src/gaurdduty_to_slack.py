@@ -1,6 +1,6 @@
+import boto3
 import json
 import requests
-import boto3
 
 webhook = 'https://hooks.slack.com/services/YOUR/KEY/HERE'
 
